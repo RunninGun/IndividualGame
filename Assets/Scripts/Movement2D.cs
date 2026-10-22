@@ -94,5 +94,17 @@ public class Movement2D : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Sets the y velocity of the player to the jumpforce. Preserves the x velocity.
 
     }
+
+///   <summary>
+/// This method is used to make the player dodge or dash
+/// </summary>
+public void Dodger(float boost)
+ {
+        // This debug lets us know that the logic made it to the dodge itself.
+        Debug.Log("Dodged");
+        moveSpeed += boost; // Adds the boost float to moveSpeed either peeding up or slowing down quickly.
+    
+ }
+
     #endregion
 }
