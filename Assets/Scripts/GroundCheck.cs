@@ -24,7 +24,7 @@ public class GroundCheck : MonoBehaviour
     /// </summary>
     private void CheckGround()
     {
-        float radius = 0.2f; // The radius of the circle cast
+        float radius = 0.4f; // The radius of the circle cast
         float distance = 0.2f; // The distance of the circle cast
         Vector2 origin = transform.position; // The position of the ground check object
         Vector2 direction = Vector2.down; // The direction of the raycast
