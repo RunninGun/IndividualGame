@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldowntime: 3
-  boost: 40
+  boost: 60
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
